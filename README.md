@@ -1,6 +1,8 @@
 # Part 2: Using Icon Buttons
 
-In this section, we will explore how to implement icon buttons using Material Design's Icon buttons. We will use the Material Symbols font for our icons.
+In this section, we will explore how to implement icon buttons using Material Design's [Icon Buttons](https://m3.material.io/components/icon-buttons/overview). We will use the Material Symbols font for our icons. 
+
+You can find the necessary codes that we will use in the next steps here: https://github.com/material-components/material-web/blob/main/docs/components/icon-button.md
 
 ## Step 1: Add External Resources
 
