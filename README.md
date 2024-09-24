@@ -78,4 +78,30 @@ After clicking on Run, you should be able to see your icons displayed. Your resu
 
 ![Result Icon Buttons](result.icons.jpg)
 
+# Part 3: Use Buttons with Front-End Framework Based on Material Design
 
+## Step 1: Download CSS File
+Download the CSS file from [Materialize CSS Getting Started](https://materializecss.com/getting-started.html).
+
+## Step 2: Add Link in HTML
+Add the following link to your HTML file:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+```
+
+## Step 3: Go to Components and Then Buttons
+
+Visit the Materialize [CSS Buttons page](https://materializecss.com/buttons.html).
+
+## Step 4: Copy and Paste This Code to Your HTML
+
+Your current HTML should look like this:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<a class="waves-effect waves-light btn">button</a>
+<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>b
+```
