@@ -164,6 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
+![Result Dropdown](result.dropme.jpg)
 ![Result Dropdown](result.dropdown.jpg)
 
 # Part 5: Material Design Kit in Figma
