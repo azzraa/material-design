@@ -1,3 +1,7 @@
+# Before Starting with the Tutorial:
+
+# Part 1: Color Template:
+
 # Part 2: Using Icon Buttons with GitHub
 
 In this section, we will explore how to implement icon buttons using Material Design's [Icon Buttons](https://m3.material.io/components/icon-buttons/overview). We will use the Material Symbols font for our icons. 
@@ -112,7 +116,7 @@ After clicking on Run, you should be able to see your icons displayed. Your resu
 
 ![Result Buttons](result.buttons.jpg)
 
-# Part 4: Using Dropdown with Materialize
+# Part 4: Using Dropdown with Front-End Framework Based on Material Design
 
 ## Step 1: Include Required Links
 To use Materialize CSS, JS and Material Icons, include the following links in your HTML:
@@ -159,3 +163,5 @@ document.addEventListener('DOMContentLoaded', function() {
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
 ![Result Dropdown](result.dropdown.jpg)
+
+# Part 5: Material Design Kit in Figma
