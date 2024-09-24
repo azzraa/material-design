@@ -74,6 +74,6 @@ span {
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
-![Result Icon Buttons](results.icons.jpg)
+![Result Icon Buttons](result.icons.jpg)
 
 
