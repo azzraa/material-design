@@ -13,7 +13,7 @@ Before we start coding, let's add the necessary external resources in JSFiddle. 
 
 ## Step 2: Add HTML Code
 
-Now, let's add the following HTML code for rounded icons:
+Now, let's add the following HTML code for the icons:
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
