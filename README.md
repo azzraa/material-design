@@ -48,6 +48,7 @@ Now, let's add the following HTML code for rounded icons:
   <span class="material-symbols-sharp filled">check_box</span>
   <span class="material-symbols-sharp filled">house</span>
 </span>
+```
 
 ## Step 3: Add CSS Code
 ```css
@@ -66,6 +67,7 @@ span {
 .filled {
   font-variation-settings: 'FILL' 1; /* Apply fill effect */
 }
+```
 
 ## Step 4: Run Your Code
 
