@@ -1,5 +1,14 @@
 # Before Starting with the Tutorial:
 
+## Step 1: 
+Use any source code editor or an online editor that supports HTML, CSS, and JavaScript. I will be using JSFiddle in this tutorial. It would be best if you create an account to be able to add external resources and save your files.
+
+## Step 2:
+Make sure to read through [Material.io](https://material.io). It contains interesting facts and different components you can explore.
+
+## Step 3: 
+It would be helpful to have a Figma account for **Part 5** to access the Material Design kit.
+
 # Part 1: Color Template:
 https://material-foundation.github.io/material-theme-builder/
 
