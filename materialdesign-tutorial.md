@@ -14,17 +14,17 @@ Use any source code editor or an online editor that supports HTML, CSS, and Java
 ### Step 2:
 Make sure to read through [Material.io](https://material.io). It contains interesting facts and different components you can explore.
 
-## Step 3: 
+### Step 3: 
 It would be helpful to have a Figma account for **Part 5** to access the Material Design kit.
 
 # Part 1: Creating a Color Scheme and Selecting Fonts Using Material Design
 
 Follow these steps to create a custom color scheme and select a font type using the Material Design Theme Builder:
 
-## Step 1: 
+### Step 1: 
 Open the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) website.
 
-## Step 2: 
+### Step 2: 
 Collect your **Core Colors**:
 - Start by selecting your **Primary**, **Secondary**, and **Tertiary** colors. You can either:
   - Choose from the color palette, or
@@ -34,27 +34,27 @@ Collect your **Core Colors**:
   - **Neutral**: Used for background and surfaces.
   - **Neutral Variant**: Applied for medium emphasis and variants.
   
-## Step 3: 
+### Step 3: 
 Once you're satisfied with the core colors, click the **Next** button.  
 This will take you to the typography customization section.
 
-## Step 4: 
+### Step 4: 
 Select a **Font Type** for your theme:
 - In the typography section, pick a font from the available options.
 - Customize the font to match the style and tone of your project.
 
-## Step 5: 
+### Step 5: 
 Preview your color scheme and typography:  
 The Theme Builder will display a preview of how your selected colors and fonts will look across various UI components.
 
-## Step 6: 
+### Step 6: 
 Click the **Export** button:
 - Choose the **CSS** option to generate a CSS file containing the variables for both your color scheme and typography.
 
-## Step 7: 
+### Step 7: 
 Download the generated CSS file or copy the variables directly from the Theme Builder.
 
-## Step 8: 
+### Step 8: 
 Integrate the colors and fonts into your project:
 - If you downloaded the CSS file, include it in your project.
 - If you copied the variables, paste them into your existing stylesheet to apply the custom theme across your components.
@@ -65,7 +65,7 @@ In this section, we will explore how to implement icon buttons using Material De
 
 You can find the necessary codes that we will use in the next steps here: https://github.com/material-components/material-web/blob/main/docs/components/icon-button.md
 
-## Step 1: Add Links in HTML 
+### Step 1: Add Links in HTML 
 Add the following links (Icon Shapes) to your HTML file:
 
 ```html
@@ -74,7 +74,7 @@ Add the following links (Icon Shapes) to your HTML file:
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
 ```
 
-## Step 2: Add HTML Code
+### Step 2: Add HTML Code
 
 Now, let's add the following HTML code for the icons:
 
@@ -110,7 +110,7 @@ Now, let's add the following HTML code for the icons:
 </span>
 ```
 
-## Step 3: Add CSS Code
+### Step 3: Add CSS Code
 ```css
 span {
   color: #006A6A;
@@ -129,7 +129,7 @@ span {
 }
 ```
 
-## Step 4: Run Your Code
+### Step 4: Run Your Code
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
@@ -137,10 +137,10 @@ After clicking on Run, you should be able to see your icons displayed. Your resu
 
 # Part 3: Use Buttons with Front-End Framework Based on Material Design
 
-## Step 1: Download CSS File
+### Step 1: Download CSS File
 Download the CSS file from [Materialize CSS Getting Started](https://materializecss.com/getting-started.html).
 
-## Step 1: Add Links in HTML
+### Step 2: Add Links in HTML
 Add the following links (CSS & Icons) to your HTML file:
 
 ```html
@@ -148,11 +148,11 @@ Add the following links (CSS & Icons) to your HTML file:
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
-## Step 3: Go to Components and Then Buttons
+### Step 3: Go to Components and Then Buttons
 
 Visit the Materialize [CSS Buttons page](https://materializecss.com/buttons.html).
 
-## Step 4: Copy and Paste This Code to Your HTML
+### Step 4: Copy and Paste This Code to Your HTML
 
 Your current HTML should look like this:
 
@@ -165,15 +165,16 @@ Your current HTML should look like this:
 <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>b
 ```
 
-## Step 5: Run Your Code
+### Step 5: Run Your Code
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
 ![Result Buttons](result.buttons.jpg)
 
 # Part 4: Using Dropdown with Front-End Framework Based on Material Design
+[Materialize CSS](https://materializecss.com/getting-started.html)
 
-## Step 1: Include Required Links
+### Step 1: Include Required Links
 To use Materialize CSS, JS and Material Icons, include the following links in your HTML:
 
 ```html
@@ -184,7 +185,7 @@ To use Materialize CSS, JS and Material Icons, include the following links in yo
 <!-- Materialize JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 ```
-Step 2: Add the Dropdown HTML
+### Step 2: Add the Dropdown HTML
 
 Next, copy and paste the following HTML code into the body of your HTML file. This code creates a dropdown trigger button and its content:
 
@@ -202,7 +203,7 @@ Next, copy and paste the following HTML code into the body of your HTML file. Th
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
 </ul>
 ```
-## Step 4: Add JavaScript Initialization
+### Step 3: Add JavaScript Initialization
 
 Copy and paste the following JavaScript code into the javascript location:
 
@@ -213,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-## Step 5: Run Your Code
+### Step 4: Run Your Code
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
 
@@ -224,18 +225,18 @@ After clicking on Run, you should be able to see your icons displayed. Your resu
 
 To access the Material Design Kit in Figma, follow these steps:
 
-## Step 1: Create a Figma Account
+### Step 1: Create a Figma Account
 If you don't already have a Figma account, go to [Figma's website](https://www.figma.com/) and sign up for a free account.
 
-## Step 2: Open the Material Design Kit
+### Step 2: Open the Material Design Kit
 Access the Material Design Kit by visiting this [Figma community file](https://www.figma.com/community/file/1035203688168086460).
 
-## Step 3: Duplicate the File  
+### Step 3: Duplicate the File  
 Once you're on the Material Design Kit page, click the “Duplicate” button in the top-right corner. This will add a copy of the design kit to your Figma workspace.
 
-## Step 4: Explore the Components
+### Step 4: Explore the Components
 After duplicating the file, you will have access to all the components, including icons, typography and UI elements from Material Design. You can now use these components in your own designs.
 
-## Step 5: Use in Your Project
+### Step 5: Use in Your Project
 Once the design kit is in your workspace, you can start incorporating these components into your projects, especially for visual references.
 
