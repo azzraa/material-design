@@ -8,24 +8,20 @@ In this section, we will explore how to implement icon buttons using Material De
 
 You can find the necessary codes that we will use in the next steps here: https://github.com/material-components/material-web/blob/main/docs/components/icon-button.md
 
-## Step 1: Add External Resources
+## Step 1: Add Links in HTML 
+Add the following links (Icon Shapes) to your HTML file:
 
-Before we start coding, let's add the necessary external resources in JSFiddle. After logging in or signing up, navigate to the left panel to add the following links:
-
-1. [Material Symbols Outlined](https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1)
-2. [Material Symbols Rounded](https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1)
-3. [Material Symbols Sharp](https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL@20..48,100..700,0..1)
-
+```html
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
+```
 
 ## Step 2: Add HTML Code
 
 Now, let's add the following HTML code for the icons:
 
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL@20..48,100..700,0..1" rel="stylesheet">
-
 <h3>Outlined</h3>
 <span>
   <span class="material-symbols-outlined">settings</span>
