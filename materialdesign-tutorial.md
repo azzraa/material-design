@@ -79,15 +79,55 @@ Paste the theme color variables you copied from the Material Theme Builder into 
 
 ```css
 .dark-medium-contrast {
-    --md-sys-color-primary: rgb(255 182 214);
-    --md-sys-color-surface: rgb(25 17 20);
-    --md-sys-color-on-surface: rgb(255 249 249);
-    --md-sys-color-error: rgb(255 186 177);
-    /* Additional color variables */
-    --md-sys-color-surface-tint: rgb(254 176 211);
-    --md-sys-color-on-primary: rgb(49 2 31);
-    --md-sys-color-background: rgb(25 17 20);
-    --md-sys-color-on-background: rgb(238 223 227);
+  --md-sys-color-primary: rgb(255 182 214);
+  --md-sys-color-surface-tint: rgb(254 176 211);
+  --md-sys-color-on-primary: rgb(49 2 31);
+  --md-sys-color-primary-container: rgb(194 123 156);
+  --md-sys-color-on-primary-container: rgb(0 0 0);
+  --md-sys-color-secondary: rgb(255 182 214);
+  --md-sys-color-on-secondary: rgb(50 2 30);
+  --md-sys-color-secondary-container: rgb(194 123 156);
+  --md-sys-color-on-secondary-container: rgb(0 0 0);
+  --md-sys-color-tertiary: rgb(247 191 157);
+  --md-sys-color-on-tertiary: rgb(41 15 0);
+  --md-sys-color-tertiary-container: rgb(183 134 103);
+  --md-sys-color-on-tertiary-container: rgb(0 0 0);
+  --md-sys-color-error: rgb(255 186 177);
+  --md-sys-color-on-error: rgb(55 0 1);
+  --md-sys-color-error-container: rgb(255 84 73);
+  --md-sys-color-on-error-container: rgb(0 0 0);
+  --md-sys-color-background: rgb(25 17 20);
+  --md-sys-color-on-background: rgb(238 223 227);
+  --md-sys-color-surface: rgb(25 17 20);
+  --md-sys-color-on-surface: rgb(255 249 249);
+  --md-sys-color-surface-variant: rgb(80 67 72);
+  --md-sys-color-on-surface-variant: rgb(216 198 204);
+  --md-sys-color-outline: rgb(175 159 164);
+  --md-sys-color-outline-variant: rgb(143 127 132);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(238 223 227);
+  --md-sys-color-inverse-on-surface: rgb(48 40 43);
+  --md-sys-color-inverse-primary: rgb(110 52 82);
+  --md-sys-color-primary-fixed: rgb(255 216 231);
+  --md-sys-color-on-primary-fixed: rgb(42 0 25);
+  --md-sys-color-primary-fixed-dim: rgb(254 176 211);
+  --md-sys-color-on-primary-fixed-variant: rgb(89 35 64);
+  --md-sys-color-secondary-fixed: rgb(255 216 231);
+  --md-sys-color-on-secondary-fixed: rgb(42 0 25);
+  --md-sys-color-secondary-fixed-dim: rgb(254 176 211);
+  --md-sys-color-on-secondary-fixed-variant: rgb(89 35 64);
+  --md-sys-color-tertiary-fixed: rgb(255 219 199);
+  --md-sys-color-on-tertiary-fixed: rgb(33 11 0);
+  --md-sys-color-tertiary-fixed-dim: rgb(242 187 153);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(80 46 21);
+  --md-sys-color-surface-dim: rgb(25 17 20);
+  --md-sys-color-surface-bright: rgb(64 55 58);
+  --md-sys-color-surface-container-lowest: rgb(19 12 15);
+  --md-sys-color-surface-container-low: rgb(33 25 28);
+  --md-sys-color-surface-container: rgb(37 29 33);
+  --md-sys-color-surface-container-high: rgb(48 40 43);
+  --md-sys-color-surface-container-highest: rgb(59 50 54);
 }
 
 .card {
