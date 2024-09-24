@@ -51,13 +51,62 @@ The Theme Builder will display a preview of how your selected colors and fonts w
 Click the **Export** button:
 - Choose the **CSS** option to generate a CSS file containing the variables for both your color scheme and typography.
 
-### Step 7: 
-Download the generated CSS file or copy the variables directly from the Theme Builder.
+### Step 7: Integrate Colors and Fonts into Your Project
 
-### Step 8: 
-Integrate the colors and fonts into your project:
-- If you downloaded the CSS file, include it in your project.
+In this step, we will integrate the colors and fonts from the Material Theme Builder into our project. You can either download the CSS file or copy the color variables directly.
+
+#### 1. Include the CSS
+
+- If you downloaded the CSS file, ensure it is included in your project.
 - If you copied the variables, paste them into your existing stylesheet to apply the custom theme across your components.
+
+#### 2. HTML Structure
+
+Use the following HTML to apply the `dark-medium-contrast` class and see the theme in action:
+
+```html
+<body class="dark-medium-contrast">
+    <div class="card">
+        This is a card with a dark medium contrast theme.
+    </div>
+    <p class="error-message">This is an error message</p>
+</body>
+```
+
+#### 3. CSS Integration
+
+Paste the theme color variables you copied from the Material Theme Builder into your CSS file. Here’s how you can structure your CSS:
+
+```css
+.dark-medium-contrast {
+    --md-sys-color-primary: rgb(255 182 214);
+    --md-sys-color-surface: rgb(25 17 20);
+    --md-sys-color-on-surface: rgb(255 249 249);
+    --md-sys-color-error: rgb(255 186 177);
+    /* Additional color variables */
+    --md-sys-color-surface-tint: rgb(254 176 211);
+    --md-sys-color-on-primary: rgb(49 2 31);
+    --md-sys-color-background: rgb(25 17 20);
+    --md-sys-color-on-background: rgb(238 223 227);
+}
+
+.card {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-surface);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+```
+
+#### 4. Example Result
+
+After implementing the above code, you should see a card with a dark background and contrasting text colors.
+
+The result will look something like this:
+
+![Result Color Theme](result.colortheme.jpg)
+
 
 # Part 2: Using Icon Buttons with GitHub
 
