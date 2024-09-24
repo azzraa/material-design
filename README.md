@@ -73,6 +73,6 @@ span {
 ## Step 4: Run Your Code
 
 After clicking on Run, you should be able to see your icons displayed. Your result should look similar to this:
-![Result Icon Buttons](path/to/your/image.png)
+![Result Icon Buttons](results_icons.jpg)
 
 
