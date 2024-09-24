@@ -8,10 +8,10 @@ In this tutorial, you will learn how to integrate **Material Design** into your 
 
 # Before Starting with the Tutorial:
 
-## Step 1: 
+### Step 1: 
 Use any source code editor or an online editor that supports HTML, CSS, and JavaScript. I will be using JSFiddle in this tutorial. It would be best if you create an account to be able to add external resources and save your files.
 
-## Step 2:
+### Step 2:
 Make sure to read through [Material.io](https://material.io). It contains interesting facts and different components you can explore.
 
 ## Step 3: 
