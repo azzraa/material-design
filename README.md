@@ -1,4 +1,4 @@
-# Part 2: Using Icon Buttons
+# Part 2: Using Icon Buttons with GitHub
 
 In this section, we will explore how to implement icon buttons using Material Design's [Icon Buttons](https://m3.material.io/components/icon-buttons/overview). We will use the Material Symbols font for our icons. 
 
