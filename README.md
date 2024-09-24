@@ -87,11 +87,12 @@ After clicking on Run, you should be able to see your icons displayed. Your resu
 ## Step 1: Download CSS File
 Download the CSS file from [Materialize CSS Getting Started](https://materializecss.com/getting-started.html).
 
-## Step 2: Add Link in HTML
-Add the following link to your HTML file:
+## Step 1: Add Links in HTML
+Add the following links (CSS & Icons) to your HTML file:
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
 ## Step 3: Go to Components and Then Buttons
@@ -104,6 +105,7 @@ Your current HTML should look like this:
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <a class="waves-effect waves-light btn">button</a>
 <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
