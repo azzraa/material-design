@@ -6,7 +6,7 @@ In this section, we will explore how to implement icon buttons using Material De
 
 Before we start coding, let's add the necessary external resources in JSFiddle. After logging in or signing up, navigate to the left panel to add the following links:
 
-1. (https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1)
+1. https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1
 2. (https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1)
 3. (https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL@20..48,100..700,0..1)
 
